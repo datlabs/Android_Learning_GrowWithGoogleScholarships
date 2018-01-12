@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+
+
+    <!-- Adding Udacity Business Information-->
+
+    <string name="_company_name" formatted="true">Udacity</string>
+    <string name="_company_website" formatted="true">www.udacity.com</string>
+    <string name="_company_address" formatted="true">2465 Latham St Mountain View, CA 94043</string>
+    <string name="_company_telphone" formatted="true">650-555-5555</string>
+
+</resources>

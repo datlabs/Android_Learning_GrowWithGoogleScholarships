@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="@string/_company_name"
+            android:src="@drawable/UdacityImage" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            style="@style/UdacityNameCoStyle"
+            android:text="@string/_company_name"
+             />
+
+        <TextView
+            style="@style/UdacityCoStyle"
+            android:text="@string/_company_telphone" />
+
+        <TextView
+            style="@style/UdacityCoStyle"
+            android:text="@string/_company_website" />
+
+        <TextView
+            style="@style/UdacityCoStyle"
+            android:text="@string/_company_address" />
+
+    </LinearLayout>
+
+</LinearLayout>
